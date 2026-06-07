@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laurentius Arlana Farel Mahardika — Software & Data Science</title>
+  <meta name="description" content="Laurentius Arlana Farel Mahardika — Computer Science student at Universitas Indonesia. Backend, Mobile & Data Science developer. Rust, Java, Python, Flutter, ML." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦊</text></svg>" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__logo">LF<span>.</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav__right">
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="hero__inner reveal">
+      <img class="hero__avatar" src="https://avatars.githubusercontent.com/u/158465224?v=4" alt="Laurentius Arlana Farel Mahardika" loading="eager" />
+      <p class="hero__hi">👋 Hi, I'm</p>
+      <h1 class="hero__name">Laurentius Arlana<br/>Farel Mahardika</h1>
+      <p class="hero__role">
+        <span class="grad">Backend</span> · <span class="grad">Mobile</span> · <span class="grad">Data Science</span> Developer
+      </p>
+      <p class="hero__sub">Computer Science student @ Universitas Indonesia (Fasilkom UI). I build systems in Rust, Java &amp; Python, mobile apps with Flutter &amp; Kotlin, and train ML models on Kaggle. CTF player on the side. 🔐</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#projects">View Projects ↓</a>
+        <a class="btn btn--ghost" href="https://github.com/KoecengDaun" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--ghost" href="https://www.kaggle.com/laurentiusfarel" target="_blank" rel="noopener">Kaggle</a>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section__head reveal">
+      <span class="section__tag">01 — About</span>
+      <h2 class="section__title">A polyglot developer who ships.</h2>
+    </div>
+    <div class="about reveal">
+      <div class="about__text">
+        <p>I'm a 3rd-year CS student at <strong>Universitas Indonesia</strong> who enjoys building things across the whole stack — from <strong>Rust systems</strong> and <strong>Spring Boot microservices</strong> to <strong>Flutter apps</strong> and <strong>machine-learning</strong> pipelines.</p>
+        <p>I care about <strong>clean architecture</strong> and <strong>solid engineering practice</strong> (TDD, CI/CD, static analysis), and I love turning messy problems into shipped products — like an AI-powered hospital assistant and a microservices hiring platform.</p>
+      </div>
+      <ul class="about__stats">
+        <li><b>7+</b><span>Languages</span></li>
+        <li><b>15+</b><span>Projects</span></li>
+        <li><b>AI / RAG</b><span>Focus</span></li>
+        <li><b>CTF</b><span>Hobby</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section__head reveal">
+      <span class="section__tag">02 — Skills</span>
+      <h2 class="section__title">Tech I work with.</h2>
+    </div>
+    <div class="skills reveal">
+      <div class="skill-card">
+        <h3>🧩 Languages</h3>
+        <div class="chips"><span>Rust</span><span>Java</span><span>Python</span><span>TypeScript</span><span>Go</span><span>Kotlin</span><span>Dart</span><span>SQL</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>⚙️ Backend</h3>
+        <div class="chips"><span>Spring Boot</span><span>FastAPI</span><span>Django</span><span>REST</span><span>gRPC</span><span>RabbitMQ</span><span>Microservices</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>📱 Frontend &amp; Mobile</h3>
+        <div class="chips"><span>React</span><span>Flutter</span><span>Yew / WASM</span><span>Android (Kotlin)</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>🤖 Data &amp; ML</h3>
+        <div class="chips"><span>PyTorch</span><span>Transformers</span><span>scikit-learn</span><span>OpenCV</span><span>pgvector / RAG</span><span>XGBoost</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>🛠️ Tools &amp; Infra</h3>
+        <div class="chips"><span>Docker</span><span>PostgreSQL</span><span>Git</span><span>Linux</span><span>CI/CD</span><span>AWS</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section__head reveal">
+      <span class="section__tag">03 — Projects</span>
+      <h2 class="section__title">Things I've built.</h2>
+    </div>
+    <div class="projects">
+
+      <article class="project project--feature reveal">
+        <div class="project__top">
+          <span class="project__badge">⭐ Featured · Live</span>
+          <div class="project__links">
+            <a href="https://sahara.nashtagroup.co.id/" target="_blank" rel="noopener" title="Live demo">↗</a>
+          </div>
+        </div>
+        <h3>Hospital Smart Assistant <span class="dot">(Sahara)</span></h3>
+        <p>AI-powered hospital assistant using <strong>RAG over PostgreSQL + pgvector</strong>. Team software-engineering project with full CI/CD, static analysis &amp; SonarQube. Source private — <a href="https://sahara.nashtagroup.co.id/" target="_blank" rel="noopener">try the live demo</a>.</p>
+        <div class="chips chips--sm"><span>Python</span><span>pgvector</span><span>RAG</span><span>React</span><span>Docker</span></div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__top">
+          <span class="project__badge">Microservices</span>
+          <div class="project__links"><a href="https://github.com/HiringGo-B04" target="_blank" rel="noopener" title="GitHub org"></a></div>
+        </div>
+        <h3>HiringGo</h3>
+        <p>Teaching-assistant hiring &amp; course-management platform built as <strong>Spring Boot microservices</strong> (7 services, JWT role-based auth, clean architecture).</p>
+        <div class="chips chips--sm"><span>Java</span><span>Spring Boot</span><span>JWT</span><span>Microservices</span></div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__top">
+          <span class="project__badge">Data Science</span>
+          <div class="project__links"><a href="https://github.com/KoecengDaun/data-science-showcase" target="_blank" rel="noopener" title="GitHub"></a></div>
+        </div>
+        <h3>Data Science Showcase</h3>
+        <p>Curated <strong>Computer Vision, NLP &amp; tabular ML</strong> notebooks from my Kaggle work — CNN pipelines, image segmentation, and IndoBERT fine-tuning.</p>
+        <div class="chips chips--sm"><span>PyTorch</span><span>Transformers</span><span>scikit-learn</span><span>OpenCV</span></div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__top">
+          <span class="project__badge">Mobile</span>
+          <div class="project__links"><a href="https://github.com/KoecengDaun/neko-alarm" target="_blank" rel="noopener" title="GitHub"></a></div>
+        </div>
+        <h3>neko-alarm</h3>
+        <p>Native <strong>Android</strong> alarm app I built in Kotlin to fix my messy sleep schedule. 😴</p>
+        <div class="chips chips--sm"><span>Kotlin</span><span>Android</span><span>Jetpack</span></div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__top">
+          <span class="project__badge">Rust · WASM</span>
+          <div class="project__links"><a href="https://github.com/KoecengDaun/YewChat_Adpro" target="_blank" rel="noopener" title="GitHub"></a></div>
+        </div>
+        <h3>YewChat</h3>
+        <p>Real-time chat web app written in <strong>Rust (Yew)</strong> compiled to WebAssembly — dark mode, reactions &amp; presence.</p>
+        <div class="chips chips--sm"><span>Rust</span><span>Yew</span><span>WebAssembly</span><span>WebSocket</span></div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__top">
+          <span class="project__badge">Full-stack</span>
+          <div class="project__links"><a href="https://github.com/PBP-E05/depokrasa-mobile" target="_blank" rel="noopener" title="GitHub"></a></div>
+        </div>
+        <h3>DepokRasa</h3>
+        <p>Food-discovery app for Depok — <strong>Django</strong> web + <strong>Flutter</strong> mobile. Team project to help locals find places to eat.</p>
+        <div class="chips chips--sm"><span>Django</span><span>Flutter</span><span>PostgreSQL</span></div>
+      </article>
+
+    </div>
+    <p class="projects__more reveal">…and more on <a href="https://github.com/KoecengDaun" target="_blank" rel="noopener">GitHub →</a></p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <div class="contact reveal">
+      <span class="section__tag">04 — Contact</span>
+      <h2 class="section__title">Let's build something.</h2>
+      <p class="contact__sub">Open to internships &amp; collaboration. Reach me here:</p>
+      <div class="contact__links">
+        <a class="btn btn--primary" href="https://github.com/KoecengDaun" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--ghost" href="https://www.kaggle.com/laurentiusfarel" target="_blank" rel="noopener">Kaggle</a>
+        <!-- 🔧 Isi email & LinkedIn-mu, lalu hapus tanda komentar:
+        <a class="btn btn--ghost" href="mailto:YOUR_EMAIL">Email</a>
+        <a class="btn btn--ghost" href="YOUR_LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Laurentius Arlana Farel Mahardika · Built with ❤️ &amp; deployed on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
